@@ -1,0 +1,31 @@
+$White: #FFFFFF;
+$Orange: #DD783F;
+$Grey: #768088;
+$Black: #2E2E2E;
+
+$fonts: ('Lora', 'Regular', 400),
+('Oxygen','Regular', 400),
+('Roboto','Regular', 400);
+   
+@each $name, $type, $weight in $fonts {
+@font-face {
+font-family: $name;
+src: url('../fonts/#{$name}-#{$type}.ttf');
+font-weight: $weight;
+}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}

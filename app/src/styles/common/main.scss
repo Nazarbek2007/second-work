@@ -1,0 +1,172 @@
+.main {
+    background: #F7F7F7;
+    padding-bottom: 108px;
+    &__info-Block {
+        max-width: 460px;
+        width: 100%;
+        background: url('../images/main-img1.webp');
+        padding: 20px;
+        border-radius: 3px;
+    }
+    &__info-top {
+        padding-top: 60px;
+    }
+    &__infoTop-h2 {
+        font-family: 'Oxygen';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: $Black;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: solid #DEDEDE 2px;
+        width: 188px;
+    }
+    &__Block-h2 {
+        font-family: 'Lora';
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 30px;
+        color: $White;
+        margin-top: 117px;
+    }
+    &__Block-disc {
+        font-family: 'Oxygen';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: $White;
+        margin-top: 6px;
+    }
+    &__Night-info  {
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+    }
+    &__night-desc {     
+        font-family: 'Oxygen';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 35px;
+        color: $Grey;
+        margin-left: 10px;
+    }
+    &__night-img {
+        height: 100%;
+    }
+    &__night-date {
+        font-family: 'Oxygen';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 35px;
+        color: $Grey;
+        margin-left: 200px;
+    }
+    &__info-BlockTwo {
+        background: url('../images/main-img2.webp');
+        max-width: 460px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 3px;
+    }
+    &__infoTop-Blocks {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-h3 {
+        border-bottom: solid #DEDEDE 2px;
+        text-align: center;
+        width: 170px;
+        margin:67px auto 30px auto;
+        padding-bottom: 20px;
+        font-family: 'Oxygen';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: $Black;
+    }
+    &__infoCen-child {
+        max-width: 296px;
+        width: 100%;
+    }
+    &__child-info {
+        background: $White;
+        padding-top: 14px;
+        padding-left: 13px;
+        padding-bottom: 30px;
+    }
+    &__ballons-img {
+        display: block;
+    }
+    &__child-h5 {
+        font-family: 'Lora';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: $Black;
+        margin-bottom: 6px;
+    }
+    &__child-desc {
+        font-family: 'Oxygen';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+        color: $Grey;
+    }
+    &__child-btm {
+        display: flex;
+        align-items: center;
+        padding: 7px 13px;
+        background: #FCFCFC;
+        margin-top: 2px;
+    }
+    &__childBtm-desc {
+        font-family: 'Oxygen';
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 35px;
+        color: #999999;
+        margin-left: 10px;
+        margin-right: 95px;
+    }
+    &__childBtm-date {
+        font-family: 'Oxygen';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 35px;
+        color: #999999;
+    }
+    &__infoCen-Par {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:20px;
+    }
+}
+
+@media(max-width:940px) {
+    .main__infoTop-Blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media(max-width: 939px) {
+    .main__info-BlockTwo {
+        margin-top: 30px;
+    }
+}
+@media(max-width: 481px) {
+    .main__info-Block {
+        width: 350px;
+        height: 280px;
+    }
+    .main__info-BlockTwo {
+        width: 350px;
+        height: 280px;
+    }
+    .main__night-date {
+        margin-left: 100px;    
+    }
+}

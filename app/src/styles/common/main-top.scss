@@ -1,0 +1,21 @@
+.mainTop {
+    &__info-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 23px 0;
+    }
+    &__list-link {
+        font-family: 'Lora';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: $Grey;
+    }
+}
+
+@media(max-width: 900px) {
+    .link {
+        padding: 0 20px;
+    }
+}
